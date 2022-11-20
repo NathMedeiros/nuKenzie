@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+.app-box {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: "Nunito";
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  gap: 80px;
+}
+
+.divInformation {
+  width: 347px;
+  height: 274px;
+  font-size: 20px;
+}
+
+.divInformation p {
+  font-size: medium;
+}
+
+.divImg img {
+  width: 520px;
+  height: 520px;
+}
+
+.btEntry {
+  font-family: "Nunito";
+  color: #ffff;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+  width: 241px;
+  height: 48px;
+}

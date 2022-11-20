@@ -1,0 +1,225 @@
+.divHeader {
+  display: flex;
+  justify-content: space-around;
+  height: 88px;
+  align-items: center;
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+.btHeader {
+  width: 64px;
+  height: 40px;
+  background: #e9ecef;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+  margin-left: 265px;
+}
+
+.btHeader:hover {
+  color: #e9ecef;
+  background-color: #fd377e;
+}
+.bodyContainer {
+  display: flex;
+  gap: 45px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.resume {
+  display: flex;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+.resume > button {
+  width: 87px;
+  height: 40px;
+  border: 1.4px solid #e9ecef;
+  border-radius: 8px;
+}
+
+.resume > button:hover {
+  background: #fd377e;
+  border: 1.4px solid #fd377e;
+  border-radius: 8px;
+  color: #f8f9fa;
+}
+
+.resume > button:focus {
+  background: #fd377e;
+  border: 1.4px solid #fd377e;
+  border-radius: 8px;
+  color: #f8f9fa;
+}
+.resume h3 {
+  margin-left: 6px;
+  margin-right: 82px;
+  font-size: 18px;
+}
+.divNoCard h2 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.divForm {
+  margin-top: 50px;
+  width: 363px;
+  height: 351px;
+  margin-left: 236px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  display: grid;
+  justify-content: center;
+}
+
+.descriptionInput {
+  width: 100%;
+  height: 40px;
+  background: #f8f9fa;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  outline: none;
+}
+.descriptionInput::placeholder {
+  font-family: "Inter";
+}
+
+.inputValue {
+  width: 128px;
+  background-color: #f8f9fa;
+  outline: none;
+  height: 30px;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.entryOption {
+  width: 100%;
+  background-color: #f8f9fa;
+  outline: none;
+  height: 35px;
+  border: 2px solid #f8f9fa;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.divOptions {
+  display: flex;
+  gap: 70px;
+}
+
+.value {
+  width: 128px;
+}
+.divSelect {
+  width: 100px;
+}
+
+.btSubmit {
+  width: 100%;
+  height: 48px;
+  background: #fd377e;
+  border: 2px solid #fd377e;
+  border-radius: 8px;
+
+  color: #ffff;
+}
+label {
+  margin-top: 20px;
+}
+
+.divValue {
+  display: flex;
+}
+
+.valueContainer {
+  margin-top: 50px;
+  width: 363px;
+  margin-left: 236px;
+  border: 1px solid #e9ecef;
+  border-radius: 4px;
+  display: grid;
+  height: 150px;
+}
+.valueContainer > p {
+  margin-left: 30px;
+  margin-top: -10px;
+  font-size: small;
+}
+
+.divValue {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.divValue p {
+  color: #fd377e;
+}
+
+.hidden {
+  display: none;
+}
+
+.ulList {
+  border-left: 5px solid #03b898;
+  border-radius: 4px 0px 0px 4px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ulList-negative {
+  border-left: 5px solid lightgrey;
+  border-radius: 4px 0px 0px 4px;
+  background: #f8f9fa;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list {
+  width: 100%;
+  height: 87px;
+}
+.list p {
+  margin-top: -5px;
+}
+
+.divList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btTrash {
+  border: none;
+  background-color: transparent;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+.divButtons {
+  display: flex;
+  flex-direction: column;
+}
+
+.divReal {
+  display: flex;
+}
+.real {
+  margin-top: 15px;
+  margin-left: -40px;
+}
