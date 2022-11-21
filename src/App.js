@@ -1,8 +1,8 @@
-import Index from "./components/homePage";
+import Index from "./components/HomePage/index";
 import { useState } from "react";
-import IndexHome from "./components/pageFinance/indexHome";
+import IndexHome from "./components/PageFinance/index";
 import "./App.css";
-import "./components/pageFinance/finance.css";
+import "./components/PageFinance/finance.css";
 import "./mobile.css";
 
 function App() {

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Header from "./header";
-import Form from "./form";
-import Finance from "./finance";
-import Value from "./value";
-import NoFound from "./noFound";
+import Header from "../Header/header";
+import Form from "../Form/form";
+import Finance from "../PageFinance/finance";
+import Value from "../Sum/value";
+import NotFound from "../NotFound-list/notFound";
 
 const IndexHome = ({ setState }) => {
   const [dados, setDados] = useState([]);
@@ -41,7 +41,7 @@ const IndexHome = ({ setState }) => {
             <button onClick={() => setFilTer("Entrada")}>Entrada</button>
             <button onClick={() => setFilTer("Despesas")}>Despesas</button>
           </div>
-          {filtered.length === 0 && <NoFound />}
+          {filtered.length === 0 && <NotFound />}
 
           {filtered.map((values, index) => (
             <Finance

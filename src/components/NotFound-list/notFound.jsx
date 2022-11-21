@@ -1,7 +1,7 @@
 import React from "react";
 import noCard from "../../img/NoCard.png";
 
-const NoFound = ({ dados }) => {
+const NotFound = ({ dados }) => {
   return (
     <div className="divNoCard">
       <h2>Você ainda não possui nenhum lançamento</h2>
@@ -10,4 +10,4 @@ const NoFound = ({ dados }) => {
   );
 };
 
-export default NoFound;
+export default NotFound;

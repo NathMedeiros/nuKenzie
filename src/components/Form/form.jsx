@@ -13,7 +13,7 @@ const Form = ({ setDados }) => {
       value,
       optionValue,
     };
-    console.log(dados);
+
     const setLocation = JSON.stringify(dados);
     localStorage.setItem("data", setLocation);
 
