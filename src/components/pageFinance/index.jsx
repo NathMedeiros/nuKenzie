@@ -19,7 +19,7 @@ const IndexHome = ({ setState }) => {
   });
 
   function removeCard(deletCard) {
-    const filterRemove = dados.filter((elt) => elt.description !== deletCard);
+    const filterRemove = dados.filter((values) => values !== deletCard);
     setDados(filterRemove);
   }
 
@@ -49,7 +49,7 @@ const IndexHome = ({ setState }) => {
               description={values.description}
               value={values.value}
               optionValue={values.optionValue}
-              removeCard={() => removeCard(values.description)}
+              removeCard={() => removeCard(values)}
             />
           ))}
         </div>
